@@ -305,12 +305,20 @@ The smart contract was supposed to check the flight status through the Singapore
 
 The main page of the application hosts an input line to enter their Ethereum private key. You can use any of the keys in Ganache by pressing the "key" button, except for the second one, as it is used by the Oracle. It is recommended that you use the first "key".
 
+![Image 1](./images/image4.jpg)
+
 You will then be redirected to the insurance page upon entering a correct Ethereum private key.
+
+![Image 1](./images/image5.jpg)
 
 Next, input your SIA flight number (eg. SQ392) and the date of your flight. You can get a test flight number from [Changi Departures](http://www.changiairport.com/en/flight/departures.html). The application will then query the SIA API to check if the flight is valid.
 
 You can then choose to purchase either a one-way or a round trip insurance. There is an option to purchase with either Ether or with Loyalty Points.
 
+![Image 1](./images/image6.jpg)
+
 Once the purchase is successful, the application will add the insurance into the table at the bottom of the webpage with the insurance ID, ticket type, flight number, flight time and status for redemption. Each purchase of insurance with Ether will also give you Loyalty Points, regardless of the flight status.
+
+![Image 1](./images/image7.jpg)
 
 If the flight is delayed/cancelled, you can come back to this table to click on the redeem button to claim your insurance in Ether. 
