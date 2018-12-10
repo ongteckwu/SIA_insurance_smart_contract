@@ -10,7 +10,9 @@ Firstly, download Ganache, a private Ethereum testnet simulation software.
 
 [Ganache](https://truffleframework.com/ganache)
 
-Then, run it. You should see this: <Image 1>
+Then, run it. You should see this:
+
+!["Image 1"](https://github.com/ongteckwu/SIA_insurance_smart_contract/images/image1.jpg "Image 1")
 
 Copy the first address. That will be the address you will be using to deploy the smart contract later on.
 
@@ -29,8 +31,8 @@ where `PORT` is the port number to interact with the private testnet, which can 
 
 `./ethereum-bridge -H localhost:7545 -a 1`
 
-Wait for the setup to complete. Once it is done, you should see this: <Image 2>
-
+Wait for the setup to complete. Once it is done, you should see this: 
+!["Image 2"](https://github.com/ongteckwu/SIA_insurance_smart_contract/images/image2.jpg "Image 2")
 Copy the line `OAR = OraclizeAddrResolverI(0x6f485C8BF6fc43eA212E93BBF8ce046C7f1cb475);`. You will need it later when deploying the smart contract.
 
 ## Smart Contract Deployment
@@ -65,7 +67,8 @@ and then deploy the contract:
 
 `truffle migrate`
 
-Once the contract is deployed, go to Ganache, under `Transactions`, and look for the smart contract transaction. The transaction should look like this: <Image 3>
+Once the contract is deployed, go to Ganache, under `Transactions`, and look for the smart contract transaction. The transaction should look like this: 
+!["Image 3"](https://github.com/ongteckwu/SIA_insurance_smart_contract/images/image3.jpg "Image 3")
 
 Copy the contract address. You can now test the contract by doing the following, on a Python console:
 
