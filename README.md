@@ -12,7 +12,7 @@ Firstly, download Ganache, a private Ethereum testnet simulation software.
 
 Then, run it. You should see this:
 
-![Image 1](./images/image1.tiff)
+![Image 1](./images/image1.jpg)
 
 Copy the first address. That will be the address you will be using to deploy the smart contract later on.
 
@@ -33,7 +33,7 @@ where `PORT` is the port number to interact with the private testnet, which can 
 
 Wait for the setup to complete. Once it is done, you should see this: 
 
-![Image 2](./images/image2.tiff)
+![Image 2](./images/image2.jpg)
 
 Copy the line `OAR = OraclizeAddrResolverI(0x6f485C8BF6fc43eA212E93BBF8ce046C7f1cb475);`. You will need it later when deploying the smart contract.
 
@@ -71,7 +71,7 @@ and then deploy the contract:
 
 Once the contract is deployed, go to Ganache, under `Transactions`, and look for the smart contract transaction. The transaction should look like this: 
 
-![Image 3](./images/image3.tiff)
+![Image 3](./images/image3.jpg)
 
 
 Copy the contract address. You can now test the contract by doing the following, on a Python console:
